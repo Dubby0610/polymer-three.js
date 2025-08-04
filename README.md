@@ -44,7 +44,7 @@ Include the elements (three-elements itself links to all other elements, for con
 
 This resuls in :
 
-![Alt text](https://github.com/kaosat-dev/polymer-threejs/raw/master/polymer-three.js-ex0.png)
+![Alt text](https://github.com/Dubby0610/polymer-threejs/raw/master/polymer-three.js-ex0.png)
 
 Create a Three.js view 320*200, with a fov of 50 shadows enabled
    
@@ -55,7 +55,7 @@ Create a Three.js view 320*200, with a fov of 50 shadows enabled
 
 This resuls in :
 
-![Alt text](https://github.com/kaosat-dev/polymer-threejs/raw/master/polymer-three.js-ex1.png)
+![Alt text](https://github.com/Dubby0610/polymer-threejs/raw/master/polymer-three.js-ex1.png)
 
 
 - Create a Three.js view 640*480, with a fov of 50, autorotating camera, with onscreen controls, grid, axes, and shadows enabled,
@@ -67,7 +67,7 @@ and a greenish background
 
 This resuls in :
 
-![Alt text](https://github.com/kaosat-dev/polymer-threejs/raw/master/polymer-three.js-ex2.png)
+![Alt text](https://github.com/Dubby0610/polymer-threejs/raw/master/polymer-three.js-ex2.png)
  
 
 - you can also create multiple views (all independant, but still  a bit buggy sometimes):
@@ -81,7 +81,7 @@ This resuls in :
 
 This resuls in :
 
-![Alt text](https://github.com/kaosat-dev/polymer-threejs/raw/master/polymer-three.js-ex3.png)
+![Alt text](https://github.com/Dubby0610/polymer-threejs/raw/master/polymer-three.js-ex3.png)
 
 
 - editing the scene/add objects to the view 
@@ -105,12 +105,3 @@ window.addEventListener('WebComponentsReady', function() {
 	    //here we add the cube to the scene via the addToScene method
 		threeViewer.addToScene(cube);
 ```
-
-Live Demo
-=========
-http://kaosat-dev.github.io/polymer-threejs/demo
-
-
-Licence
-=======
-MIT
